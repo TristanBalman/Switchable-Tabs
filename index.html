@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <div class="test__container">
+      <h1>Tabs with HTML, CSS and JavaScript</h1>
+
+      <div class="tabs__container">
+        <div class="tabs__sidebar">
+          <!-- data-for-tab="#" means the data for whichever tab you've selected -->
+          <button class="tabs__button" data-for-tab="1">Tab #1</button>
+          <button class="tabs__button" data-for-tab="2">Tab #2</button>
+          <button class="tabs__button" data-for-tab="3">Tab #3</button>
+        </div>
+        <!-- data-tab="#" to point the data at the respective button -->
+        <div class="tabs__content" data-tab="1">
+          <h2>Tab 1</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci,
+            exercitationem? Saepe voluptatibus dolore fugiat quo autem adipisci
+            esse cupiditate inventore!
+          </p>
+        </div>
+        <div class="tabs__content" data-tab="2">
+          <h2>Tab 2</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci,
+            exercitationem? Saepe voluptatibus dolore fugiat quo autem adipisci
+            esse cupiditate inventore!
+          </p>
+        </div>
+        <div class="tabs__content" data-tab="3">
+          <h2>Tab 3</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci,
+            exercitationem? Saepe voluptatibus dolore fugiat quo autem adipisci
+            esse cupiditate inventore!
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
