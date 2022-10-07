@@ -14,13 +14,15 @@
 
       <div class="tabs__container">
         <div class="tabs__sidebar">
+          <!-- tabs__button--active can be removed if not wanted when site loads-->
           <!-- data-for-tab="#" means the data for whichever tab you've selected -->
-          <button class="tabs__button" data-for-tab="1">Tab #1</button>
+          <button class="tabs__button tabs__button--active" data-for-tab="1">Tab #1</button>
           <button class="tabs__button" data-for-tab="2">Tab #2</button>
           <button class="tabs__button" data-for-tab="3">Tab #3</button>
         </div>
+        <!-- tabs__content--active can be removed if not wanted when site loads-->
         <!-- data-tab="#" to point the data at the respective button -->
-        <div class="tabs__content" data-tab="1">
+        <div class="tabs__content tabs__content--active" data-tab="1">
           <h2>Tab 1</h2>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci,
